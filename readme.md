@@ -83,7 +83,7 @@ Mark Zuckerberg... but with cats. We'll call our billion dollar website: `Fur Re
    with a webpage. Now do the same with postman, you should see the same result. Unfortunately your browser can only send
    GET requests, which is why we need Postman.
 4. You need a Database in order to store information about your cats. We could store transactions in a text file like a
-   CSV, but that file might get deleted or corrupted! Databases are our friends, so we're going to use MySQL.
+   CSV, but that file might have bad data, get deleted, or corrupted! Databases are our friends, so we're going to use MySQL.
    Feel free to SQLLite or Postgres or whatever your comfortable with. Import the sql seed file into your db with the cmd
    ```bash
    mysql -u your_mysql_username -p < ./sql/seed.sql 
@@ -105,3 +105,4 @@ Mark Zuckerberg... but with cats. We'll call our billion dollar website: `Fur Re
     # to run just one test
     python -m pytest api_tests.py::test_server_is_up
     ```
+6. Pass all tests. Ask me if you need help. Good Luck
