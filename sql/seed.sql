@@ -10,382 +10,379 @@ CREATE TABLE cats (
     age smallint,
     url varchar(255)
 );
-
-INSERT INTO cats (name, url, age)
-VALUES
-('Prince', 's3://lt-cats-sample/0.jpg', 8),
-('Lizzie', 's3://lt-cats-sample/1.jpg', 10),
-('Ruby', 's3://lt-cats-sample/2.jpg', 11),
-('Pandora', 's3://lt-cats-sample/3.jpg', 8),
-('Billy', 's3://lt-cats-sample/4.jpg', 4),
-('Romeo', 's3://lt-cats-sample/5.jpg', 6),
-('Lollipop', 's3://lt-cats-sample/6.jpg', 7),
-('Theo', 's3://lt-cats-sample/7.jpg', 5),
-('Chico', 's3://lt-cats-sample/8.jpg', 4),
-('Paco', 's3://lt-cats-sample/9.jpg', 4),
-('Ella', 's3://lt-cats-sample/10.jpg', 6),
-('Tasha', 's3://lt-cats-sample/11.jpg', 5),
-('Sofia', 's3://lt-cats-sample/12.jpg', 4),
-('Jasper', 's3://lt-cats-sample/13.jpg', 8),
-('Juno', 's3://lt-cats-sample/14.jpg', 7),
-('Nutmeg', 's3://lt-cats-sample/15.jpg', 5),
-('Priscilla', 's3://lt-cats-sample/16.jpg', 3),
-('Ivan', 's3://lt-cats-sample/17.jpg', 8),
-('Abbey', 's3://lt-cats-sample/18.jpg', 5),
-('Hunter', 's3://lt-cats-sample/19.jpg', 8),
-('Diamond', 's3://lt-cats-sample/20.jpg', 10),
-('Fiona', 's3://lt-cats-sample/21.png', 8),
-('Daisy', 's3://lt-cats-sample/22.png', 3),
-('Mindy', 's3://lt-cats-sample/23.jpg', 6),
-('Rusty', 's3://lt-cats-sample/24.jpg', 10),
-('Nala', 's3://lt-cats-sample/25.jpg', 5),
-('Paris', 's3://lt-cats-sample/26.jpg', 9),
-('Lucy', 's3://lt-cats-sample/27.gif', 7),
-('Mina', 's3://lt-cats-sample/28.jpg', 2),
-('Hazel', 's3://lt-cats-sample/29.jpg', 4),
-('Ashley', 's3://lt-cats-sample/30.jpg', 5),
-('Coco', 's3://lt-cats-sample/31.jpg', 3),
-('Faith', 's3://lt-cats-sample/32.png', 3),
-('Artemis', 's3://lt-cats-sample/33.jpg', 7),
-('Catie', 's3://lt-cats-sample/34.jpg', 7),
-('Cleo', 's3://lt-cats-sample/35.jpg', 8),
-('Sammie', 's3://lt-cats-sample/36.jpg', 10),
-('Maddie', 's3://lt-cats-sample/37.jpg', 11),
-('Minnie', 's3://lt-cats-sample/38.jpg', 8),
-('Roxy', 's3://lt-cats-sample/39.jpg', 8),
-('Tessa', 's3://lt-cats-sample/40.jpg', 5),
-('Odin', 's3://lt-cats-sample/41.jpg', 6),
-('Dusty', 's3://lt-cats-sample/42.jpg', 9),
-('Emily', 's3://lt-cats-sample/43.jpg', 11),
-('Nikki', 's3://lt-cats-sample/44.jpg', 9),
-('Noel', 's3://lt-cats-sample/45.jpg', 4),
-('Maggie', 's3://lt-cats-sample/46.jpg', 9),
-('Lilo', 's3://lt-cats-sample/47.jpg', 2),
-('Tom', 's3://lt-cats-sample/48.jpg', 5),
-('Ava', 's3://lt-cats-sample/49.jpg', 4),
-('Betty', 's3://lt-cats-sample/50.jpg', 6),
-('Sandy', 's3://lt-cats-sample/51.jpg', 10),
-('Misha', 's3://lt-cats-sample/52.jpg', 11),
-('Bunny', 's3://lt-cats-sample/53.jpg', 7),
-('Lily', 's3://lt-cats-sample/54.jpg', 11),
-('Macy', 's3://lt-cats-sample/55.PNG', 7),
-('Pearl', 's3://lt-cats-sample/56.gif', 4),
-('Eddie', 's3://lt-cats-sample/57.jpg', 4),
-('Misty', 's3://lt-cats-sample/58.jpg', 4),
-('George', 's3://lt-cats-sample/59.jpg', 8),
-('Buddy', 's3://lt-cats-sample/60.jpg', 10),
-('Amber', 's3://lt-cats-sample/61.jpg', 11),
-('Luna', 's3://lt-cats-sample/62.jpg', 5),
-('Silver', 's3://lt-cats-sample/63.jpg', 9),
-('Millie', 's3://lt-cats-sample/64.jpg', 6),
-('Bandit', 's3://lt-cats-sample/65.gif', 7),
-('Roxie', 's3://lt-cats-sample/66.jpg', 11),
-('Echo', 's3://lt-cats-sample/67.png', 7),
-('Pepper', 's3://lt-cats-sample/68.jpg', 2),
-('Lucky', 's3://lt-cats-sample/69.jpg', 5),
-('Leonie', 's3://lt-cats-sample/70.jpg', 8),
-('Gloria', 's3://lt-cats-sample/71.jpg', 8),
-('Lizzy', 's3://lt-cats-sample/72.jpg', 8),
-('Pumpkin', 's3://lt-cats-sample/73.jpg', 9),
-('Sadie', 's3://lt-cats-sample/74.jpg', 11),
-('Tammy', 's3://lt-cats-sample/75.jpg', 7),
-('Chelsea', 's3://lt-cats-sample/76.jpg', 2),
-('Peaches', 's3://lt-cats-sample/77.png', 4),
-('Socks', 's3://lt-cats-sample/78.jpg', 11),
-('Sam', 's3://lt-cats-sample/79.jpg', 11),
-('Dixie', 's3://lt-cats-sample/80.jpg', 2),
-('Justice', 's3://lt-cats-sample/81.jpg', 5),
-('Stella', 's3://lt-cats-sample/82.jpg', 10),
-('Loki', 's3://lt-cats-sample/83.jpg', 8),
-('Fluffy', 's3://lt-cats-sample/84.jpg', 3),
-('Mia', 's3://lt-cats-sample/85.jpg', 4),
-('Blue', 's3://lt-cats-sample/86.jpg', 3),
-('Abbie', 's3://lt-cats-sample/87.jpg', 6),
-('Madison', 's3://lt-cats-sample/88.jpg', 6),
-('Ginger', 's3://lt-cats-sample/89.jpg', 8),
-('Rey', 's3://lt-cats-sample/90.jpg', 2),
-('Cedar', 's3://lt-cats-sample/91.jpg', 9),
-('Oliver', 's3://lt-cats-sample/92.jpg', 7),
-('Joey', 's3://lt-cats-sample/93.jpg', 2),
-('Tigger', 's3://lt-cats-sample/94.png', 3),
-('Autumn', 's3://lt-cats-sample/95.jpg', 6),
-('Zeus', 's3://lt-cats-sample/96.jpg', 7),
-('Leia', 's3://lt-cats-sample/97.jpg', 2),
-('Abigail', 's3://lt-cats-sample/98.jpg', 10),
-('Goldie', 's3://lt-cats-sample/99.jpg', 11),
-('Spooky', 's3://lt-cats-sample/100.jpg', 9),
-('Ollie', 's3://lt-cats-sample/101.jpg', 8),
-('Simone', 's3://lt-cats-sample/102.jpg', 4),
-('Lilly', 's3://lt-cats-sample/103.jpg', 5),
-('Poppy', 's3://lt-cats-sample/104.jpg', 5),
-('Elvis', 's3://lt-cats-sample/105.jpg', 10),
-('Heidi', 's3://lt-cats-sample/106.jpg', 8),
-('Annie', 's3://lt-cats-sample/107.jpg', 4),
-('Tango', 's3://lt-cats-sample/108.jpg', 11),
-('Tabby', 's3://lt-cats-sample/109.jpg', 11),
-('Storm', 's3://lt-cats-sample/110.jpg', 5),
-('Monty', 's3://lt-cats-sample/111.jpg', 7),
-('Sasha', 's3://lt-cats-sample/112.jpg', 6),
-('Angel', 's3://lt-cats-sample/113.jpg', 4),
-('Lady', 's3://lt-cats-sample/114.jpg', 10),
-('Tina', 's3://lt-cats-sample/115.jpg', 11),
-('Petunia', 's3://lt-cats-sample/116.jpg', 9),
-('Alex', 's3://lt-cats-sample/117.gif', 10),
-('Lexi', 's3://lt-cats-sample/118.jpg', 10),
-('Dora', 's3://lt-cats-sample/119.jpg', 10),
-('Athena', 's3://lt-cats-sample/120.jpg', 11),
-('Ally', 's3://lt-cats-sample/121.jpg', 8),
-('Louise', 's3://lt-cats-sample/122.jpg', 5),
-('Buffy', 's3://lt-cats-sample/123.gif', 11),
-('Aldo', 's3://lt-cats-sample/124.jpg', 9),
-('Panda', 's3://lt-cats-sample/125.jpg', 7),
-('Rose', 's3://lt-cats-sample/126.jpg', 7),
-('Clementine', 's3://lt-cats-sample/127.jpg', 9),
-('Oreo', 's3://lt-cats-sample/128.jpg', 11),
-('Samantha', 's3://lt-cats-sample/129.jpg', 7),
-('Sarah', 's3://lt-cats-sample/130.jpg', 8),
-('Bonnie', 's3://lt-cats-sample/131.jpg', 11),
-('Sugar', 's3://lt-cats-sample/132.jpg', 11),
-('Hope', 's3://lt-cats-sample/133.jpg', 5),
-('Zoey', 's3://lt-cats-sample/134.jpg', 4),
-('Leila', 's3://lt-cats-sample/135.jpg', 3),
-('Mittens', 's3://lt-cats-sample/136.jpg', 9),
-('Taz', 's3://lt-cats-sample/137.jpg', 10),
-('Frankie', 's3://lt-cats-sample/138.jpg', 11),
-('Precious', 's3://lt-cats-sample/139.jpg', 2),
-('Nora', 's3://lt-cats-sample/140.jpg', 10),
-('Olivia', 's3://lt-cats-sample/141.jpg', 6),
-('Ursula', 's3://lt-cats-sample/142.jpg', 5),
-('Jessie', 's3://lt-cats-sample/143.jpg', 7),
-('Miss Kitty', 's3://lt-cats-sample/144.jpg', 7),
-('Ivy', 's3://lt-cats-sample/145.jpg', 7),
-('Tiger Lily', 's3://lt-cats-sample/146.jpg', 8),
-('Ophelia', 's3://lt-cats-sample/147.jpg', 11),
-('Bella', 's3://lt-cats-sample/148.jpg', 5),
-('Lacey', 's3://lt-cats-sample/149.jpg', 5),
-('Marley', 's3://lt-cats-sample/150.jpg', 4),
-('Eva', 's3://lt-cats-sample/151.jpg', 7),
-('Kali', 's3://lt-cats-sample/152.jpg', 3),
-('Cleopatra', 's3://lt-cats-sample/153.jpg', 2),
-('Chanel', 's3://lt-cats-sample/154.jpg', 5),
-('Sophia', 's3://lt-cats-sample/155.jpg', 4),
-('Duchess', 's3://lt-cats-sample/156.jpg', 8),
-('Grace', 's3://lt-cats-sample/157.jpg', 6),
-('Goose', 's3://lt-cats-sample/158.jpg', 10),
-('Tinkerbell', 's3://lt-cats-sample/159.jpg', 10),
-('Juliet', 's3://lt-cats-sample/160.jpg', 7),
-('Peanut', 's3://lt-cats-sample/161.jpg', 9),
-('Pixie', 's3://lt-cats-sample/162.jpg', 2),
-('Molly', 's3://lt-cats-sample/163.jpg', 6),
-('Apollo', 's3://lt-cats-sample/164.gif', 3),
-('Willow', 's3://lt-cats-sample/165.jpg', 8),
-('Hermione', 's3://lt-cats-sample/166.jpg', 10),
-('Dinah', 's3://lt-cats-sample/167.jpg', 3),
-('Hannah', 's3://lt-cats-sample/168.jpg', 11),
-('Sooty', 's3://lt-cats-sample/169.jpg', 3),
-('Star', 's3://lt-cats-sample/170.jpg', 5),
-('Maxine', 's3://lt-cats-sample/171.jpg', 10),
-('Walter', 's3://lt-cats-sample/172.png', 10),
-('Mandy', 's3://lt-cats-sample/173.jpg', 6),
-('Libby', 's3://lt-cats-sample/174.jpg', 5),
-('Jack', 's3://lt-cats-sample/175.jpg', 10),
-('Gracie', 's3://lt-cats-sample/176.jpg', 4),
-('Princess', 's3://lt-cats-sample/177.jpg', 2),
-('Smokey', 's3://lt-cats-sample/178.jpg', 6),
-('Buttercup', 's3://lt-cats-sample/179.jpg', 3),
-('Peregrine', 's3://lt-cats-sample/180.jpg', 7),
-('Josie', 's3://lt-cats-sample/181.jpg', 6),
-('Kiki', 's3://lt-cats-sample/182.jpg', 6),
-('Allie', 's3://lt-cats-sample/183.jpg', 10),
-('Sassy', 's3://lt-cats-sample/184.jpg', 2),
-('Tulip', 's3://lt-cats-sample/185.jpg', 3),
-('Roo', 's3://lt-cats-sample/186.jpg', 9),
-('Savannah', 's3://lt-cats-sample/187.jpg', 3),
-('Pinky', 's3://lt-cats-sample/188.jpg', 3),
-('Zuzu', 's3://lt-cats-sample/189.jpg', 7),
-('Lulu', 's3://lt-cats-sample/190.jpg', 3),
-('Sammy', 's3://lt-cats-sample/191.jpg', 10),
-('Rosie', 's3://lt-cats-sample/192.jpg', 8),
-('Tabitha', 's3://lt-cats-sample/193.jpg', 8),
-('Natasha', 's3://lt-cats-sample/194.jpg', 5),
-('Ramona', 's3://lt-cats-sample/195.jpg', 3),
-('Griffin', 's3://lt-cats-sample/196.jpg', 6),
-('Baby Girl', 's3://lt-cats-sample197.gif', 2),
-('Jade', 's3://lt-cats-sample/198.gif', 4),
-('Tootsie', 's3://lt-cats-sample/199.jpg', 2),
-('Zander', 's3://lt-cats-sample/200.jpg', 10),
-('Dakota', 's3://lt-cats-sample/201.jpg', 2),
-('Scarlett', 's3://lt-cats-sample/202.jpg', 8),
-('Casper', 's3://lt-cats-sample/203.jpg', 11),
-('Candy', 's3://lt-cats-sample/204.jpg', 6),
-('Lexie', 's3://lt-cats-sample/205.png', 5),
-('Queenie', 's3://lt-cats-sample/206.jpg', 5),
-('Boots', 's3://lt-cats-sample/207.jpg', 7),
-('Dolly', 's3://lt-cats-sample/208.jpg', 3),
-('Isabella', 's3://lt-cats-sample/209.jpg', 5),
-('Bear', 's3://lt-cats-sample/210.gif', 2),
-('Moxie', 's3://lt-cats-sample/211.jpg', 11),
-('Leonard', 's3://lt-cats-sample/212.jpg', 4),
-('Trixie', 's3://lt-cats-sample/213.jpg', 11),
-('Cinnamon', 's3://lt-cats-sample/214.jpg', 5),
-('Ariel', 's3://lt-cats-sample/215.jpg', 2),
-('Max', 's3://lt-cats-sample/216.jpg', 4),
-('Tiffany', 's3://lt-cats-sample/217.jpg', 5),
-('Vesper', 's3://lt-cats-sample/218.png', 2),
-('Brownie', 's3://lt-cats-sample/219.jpg', 9),
-('Harley', 's3://lt-cats-sample/220.jpg', 8),
-('Kitten', 's3://lt-cats-sample/221.jpg', 11),
-('Ripley', 's3://lt-cats-sample/222.jpg', 5),
-('Louie', 's3://lt-cats-sample/223.jpg', 3),
-('Iris', 's3://lt-cats-sample/224.jpg', 5),
-('Dante', 's3://lt-cats-sample/225.jpg', 2),
-('Chester', 's3://lt-cats-sample/226.png', 6),
-('Penelope', 's3://lt-cats-sample/227.jpg', 7),
-('Mitzi', 's3://lt-cats-sample/228.jpg', 4),
-('Xena', 's3://lt-cats-sample/229.jpg', 5),
-('Cricket', 's3://lt-cats-sample/230.jpeg', 6),
-('Chewy', 's3://lt-cats-sample/231.jpg', 3),
-('Whiskers', 's3://lt-cats-sample/232.jpg', 3),
-('Rocky', 's3://lt-cats-sample/233.jpg', 7),
-('Suki', 's3://lt-cats-sample/234.gif', 7),
-('Riley', 's3://lt-cats-sample/235.jpg', 2),
-('Cookie', 's3://lt-cats-sample/236.jpg', 7),
-('Henry', 's3://lt-cats-sample/237.jpg', 5),
-('Shadow', 's3://lt-cats-sample/238.jpg', 11),
-('Izzy', 's3://lt-cats-sample/239.jpg', 7),
-('Zeke', 's3://lt-cats-sample/240.jpg', 2),
-('Violet', 's3://lt-cats-sample/241.jpg', 11),
-('Kimba', 's3://lt-cats-sample/242.png', 3),
-('Callie', 's3://lt-cats-sample/243.jpg', 11),
-('Gizmo', 's3://lt-cats-sample/244.jpg', 7),
-('Rocco', 's3://lt-cats-sample/245.jpg', 8),
-('Beatrix', 's3://lt-cats-sample/246.jpg', 5),
-('Charlotte', 's3://lt-cats-sample/247.jpg', 8),
-('Kitty', 's3://lt-cats-sample/248.jpg', 3),
-('Thomas', 's3://lt-cats-sample/249.jpg', 5),
-('Honey', 's3://lt-cats-sample/250.jpg', 7),
-('Mama', 's3://lt-cats-sample/251.jpg', 3),
-('Sophie', 's3://lt-cats-sample/252.jpeg', 10),
-('Zoe', 's3://lt-cats-sample/253.jpg', 7),
-('Matilda', 's3://lt-cats-sample/254.jpg', 9),
-('Cinder', 's3://lt-cats-sample/255.jpg', 3),
-('Finn', 's3://lt-cats-sample/256.jpg', 4),
-('Mika', 's3://lt-cats-sample/257.jpg', 6),
-('Shelby', 's3://lt-cats-sample/258.jpg', 7),
-('Polly', 's3://lt-cats-sample/259.jpg', 10),
-('Sunshine', 's3://lt-cats-sample/260.gif', 2),
-('Charlie', 's3://lt-cats-sample/261.jpg', 2),
-('Sabrina', 's3://lt-cats-sample/262.jpg', 8),
-('Puss', 's3://lt-cats-sample/263.jpg', 6),
-('Benny', 's3://lt-cats-sample/264.jpg', 11),
-('Dottie', 's3://lt-cats-sample/265.jpg', 5),
-('Bailey', 's3://lt-cats-sample/266.jpg', 2),
-('Teddy', 's3://lt-cats-sample/267.jpg', 6),
-('Cali', 's3://lt-cats-sample/268.jpg', 3),
-('Cupcake', 's3://lt-cats-sample/269.jpg', 6),
-('Thor', 's3://lt-cats-sample/270.jpg', 5),
-('Chloe', 's3://lt-cats-sample/271.jpg', 8),
-('Jazzy', 's3://lt-cats-sample/272.jpg', 5),
-('Baby', 's3://lt-cats-sample/273.jpg', 6),
-('Madeline', 's3://lt-cats-sample/274.jpg', 10),
-('Gigi', 's3://lt-cats-sample/275.png', 2),
-('Nina', 's3://lt-cats-sample/276.jpg', 8),
-('Piper', 's3://lt-cats-sample/277.jpg', 8),
-('Oscar', 's3://lt-cats-sample/278.jpg', 11),
-('Crystal', 's3://lt-cats-sample/279.jpg', 2),
-('Ziva', 's3://lt-cats-sample/280.png', 7),
-('Avalon', 's3://lt-cats-sample/281.jpg', 6),
-('Raven', 's3://lt-cats-sample/282.jpg', 3),
-('Sunny', 's3://lt-cats-sample/283.jpg', 7),
-('Penny', 's3://lt-cats-sample/284.jpg', 3),
-('Cassie', 's3://lt-cats-sample/285.jpg', 9),
-('Alice', 's3://lt-cats-sample/286.png', 2),
-('Persie', 's3://lt-cats-sample/287.jpg', 8),
-('Toby', 's3://lt-cats-sample/288.jpg', 8),
-('Delilah', 's3://lt-cats-sample/289.jpg', 6),
-('Lila', 's3://lt-cats-sample/290.jpg', 7),
-('Sierra', 's3://lt-cats-sample/291.jpg', 2),
-('Sebastian', 's3://lt-cats-sample/292.jpg', 2),
-('Abby', 's3://lt-cats-sample/293.jpg', 3),
-('Cocoa', 's3://lt-cats-sample/294.gif', 2),
-('Sylvester', 's3://lt-cats-sample/295.jpg', 4),
-('Maisie', 's3://lt-cats-sample/296.jpg', 10),
-('Belle', 's3://lt-cats-sample/297.jpg', 8),
-('Stormy', 's3://lt-cats-sample/298.jpg', 6),
-('Vincent', 's3://lt-cats-sample/299.jpg', 9),
-('Bianca', 's3://lt-cats-sample/300.jpg', 11),
-('Chase', 's3://lt-cats-sample/301.jpg', 7),
-('Gabby', 's3://lt-cats-sample/302.jpg', 4),
-('Felix', 's3://lt-cats-sample/303.jpg', 11),
-('Ebony', 's3://lt-cats-sample/304.jpg', 8),
-('Snowball', 's3://lt-cats-sample/305.jpg', 6),
-('Mya', 's3://lt-cats-sample/306.jpg', 5),
-('Patches', 's3://lt-cats-sample/307.jpg', 3),
-('Serafina', 's3://lt-cats-sample/308.gif', 2),
-('Snickers', 's3://lt-cats-sample/309.jpg', 6),
-('Cuddles', 's3://lt-cats-sample/310.jpg', 11),
-('Lola', 's3://lt-cats-sample/311.gif', 11),
-('Pebbles', 's3://lt-cats-sample/312.jpg', 5),
-('Kit Kat', 's3://lt-cats-sample/313.jpg', 8),
-('Velvet', 's3://lt-cats-sample/314.jpg', 2),
-('Phoebe', 's3://lt-cats-sample/315.jpg', 8),
-('Mocha', 's3://lt-cats-sample/316.jpg', 6),
-('Annabelle', 's3://lt-cats-sample/317.jpg', 10),
-('Katie', 's3://lt-cats-sample/318.jpg', 8),
-('Minerva', 's3://lt-cats-sample/319.jpg', 4),
-('Beau', 's3://lt-cats-sample/320.jpg', 2),
-('Xavier', 's3://lt-cats-sample/321.jpg', 3),
-('Sally', 's3://lt-cats-sample/322.jpg', 5),
-('Isis', 's3://lt-cats-sample/323.jpg', 8),
-('Olive', 's3://lt-cats-sample/324.png', 4),
-('Layla', 's3://lt-cats-sample/325.jpg', 9),
-('Hera', 's3://lt-cats-sample/326.jpg', 9),
-('Rascal', 's3://lt-cats-sample/327.jpg', 6),
-('Winnie', 's3://lt-cats-sample/328.jpg', 6),
-('Maya', 's3://lt-cats-sample/329.jpg', 11),
-('Harry', 's3://lt-cats-sample/330.jpg', 6),
-('Scout', 's3://lt-cats-sample/331.jpg', 11),
-('Ziggy', 's3://lt-cats-sample/332.jpg', 2),
-('Ranger', 's3://lt-cats-sample/333.jpg', 5),
-('Midnight', 's3://lt-cats-sample/334.jpg', 5),
-('Ellie', 's3://lt-cats-sample/335.jpg', 5),
-('Dahlia', 's3://lt-cats-sample/336.jpg', 4),
-('Diego', 's3://lt-cats-sample/337.jpg', 4),
-('Gypsy', 's3://lt-cats-sample/338.jpg', 5),
-('Spike', 's3://lt-cats-sample/339.jpg', 7),
-('Smudge', 's3://lt-cats-sample/340.jpg', 2),
-('Jasmine', 's3://lt-cats-sample/341.jpg', 10),
-('Reese', 's3://lt-cats-sample/342.jpg', 10),
-('Simba', 's3://lt-cats-sample/343.jpg', 10),
-('Emma', 's3://lt-cats-sample/344.jpg', 4),
-('Buster', 's3://lt-cats-sample/345.jpg', 2),
-('Skye', 's3://lt-cats-sample/346.jpg', 6),
-('Otis', 's3://lt-cats-sample/347.jpg', 3),
-('Kira', 's3://lt-cats-sample/348.jpg', 10),
-('Onyx', 's3://lt-cats-sample/349.jpg', 6),
-('Mimi', 's3://lt-cats-sample/350.jpg', 3),
-('Elsa', 's3://lt-cats-sample/351.jpg', 11),
-('Amy', 's3://lt-cats-sample/352.jpg', 4),
-('Muffin', 's3://lt-cats-sample/353.jpg', 5),
-('Mila', 's3://lt-cats-sample/354.jpg', 6),
-('Aurora', 's3://lt-cats-sample/355.jpg', 6),
-('Holly', 's3://lt-cats-sample/356.gif', 8),
-('Jake', 's3://lt-cats-sample/357.jpeg', 3),
-('Patch', 's3://lt-cats-sample/358.jpg', 5),
-('Daphne', 's3://lt-cats-sample/359.jpg', 11),
-('Missy', 's3://lt-cats-sample/360.jpg', 9),
-('Sissy', 's3://lt-cats-sample/361.jpg', 2),
-('Murphy', 's3://lt-cats-sample/362.jpg', 3),
-('Milo', 's3://lt-cats-sample/363.png', 7),
-('Kona', 's3://lt-cats-sample/364.jpg', 7),
-('Isabelle', 's3://lt-cats-sample/365.gif', 4),
-('Rhubarb', 's3://lt-cats-sample/366.gif', 6),
-('Mochi', 's3://lt-cats-sample/367.jpg', 2),
-('Tiger', 's3://lt-cats-sample/368.jpg', 9),
-('Rex', 's3://lt-cats-sample/369.jpg', 5),
-('Boo', 's3://lt-cats-sample/370.jpg', 8),
-('Skittles', 's3://lt-cats-sample/371.jpg', 9),
-('Moon', 's3://lt-cats-sample/372.jpg', 10),
-('Casey', 's3://lt-cats-sample/373.jpg', 6),
-('Zelda', 's3://lt-cats-sample/374.jpg', 3),
-('Sheba', 's3://lt-cats-sample/375.jpg', 5);
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (1, 'Prince', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/0.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (2, 'Lizzie', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/1.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (3, 'Ruby', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/2.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (4, 'Pandora', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/3.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (5, 'Billy', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/4.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (6, 'Romeo', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/5.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (7, 'Lollipop', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/6.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (8, 'Theo', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/7.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (9, 'Chico', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/8.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (10, 'Paco', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/9.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (11, 'Ella', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/10.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (12, 'Tasha', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/11.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (13, 'Sofia', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/12.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (14, 'Jasper', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/13.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (15, 'Juno', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/14.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (16, 'Nutmeg', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/15.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (17, 'Priscilla', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/16.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (18, 'Ivan', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/17.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (19, 'Abbey', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/18.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (20, 'Hunter', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/19.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (21, 'Diamond', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/20.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (22, 'Fiona', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/21.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (23, 'Daisy', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/22.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (24, 'Mindy', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/23.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (25, 'Rusty', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/24.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (26, 'Nala', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/25.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (27, 'Paris', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/26.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (28, 'Lucy', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/27.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (29, 'Mina', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/28.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (30, 'Hazel', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/29.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (31, 'Ashley', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/30.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (32, 'Coco', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/31.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (33, 'Faith', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/32.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (34, 'Artemis', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/33.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (35, 'Catie', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/34.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (36, 'Cleo', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/35.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (37, 'Sammie', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/36.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (38, 'Maddie', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/37.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (39, 'Minnie', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/38.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (40, 'Roxy', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/39.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (41, 'Tessa', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/40.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (42, 'Odin', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/41.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (43, 'Dusty', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/42.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (44, 'Emily', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/43.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (45, 'Nikki', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/44.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (46, 'Noel', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/45.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (47, 'Maggie', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/46.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (48, 'Lilo', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/47.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (49, 'Tom', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/48.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (50, 'Ava', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/49.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (51, 'Betty', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/50.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (52, 'Sandy', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/51.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (53, 'Misha', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/52.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (54, 'Bunny', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/53.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (55, 'Lily', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/54.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (56, 'Macy', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/55.PNG');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (57, 'Pearl', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/56.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (58, 'Eddie', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/57.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (59, 'Misty', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/58.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (60, 'George', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/59.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (61, 'Buddy', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/60.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (62, 'Amber', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/61.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (63, 'Luna', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/62.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (64, 'Silver', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/63.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (65, 'Millie', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/64.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (66, 'Bandit', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/65.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (67, 'Roxie', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/66.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (68, 'Echo', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/67.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (69, 'Pepper', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/68.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (70, 'Lucky', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/69.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (71, 'Leonie', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/70.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (72, 'Gloria', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/71.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (73, 'Lizzy', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/72.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (74, 'Pumpkin', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/73.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (75, 'Sadie', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/74.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (76, 'Tammy', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/75.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (77, 'Chelsea', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/76.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (78, 'Peaches', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/77.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (79, 'Socks', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/78.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (80, 'Sam', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/79.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (81, 'Dixie', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/80.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (82, 'Justice', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/81.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (83, 'Stella', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/82.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (84, 'Loki', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/83.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (85, 'Fluffy', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/84.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (86, 'Mia', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/85.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (87, 'Blue', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/86.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (88, 'Abbie', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/87.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (89, 'Madison', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/88.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (90, 'Ginger', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/89.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (91, 'Rey', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/90.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (92, 'Cedar', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/91.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (93, 'Oliver', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/92.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (94, 'Joey', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/93.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (95, 'Tigger', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/94.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (96, 'Autumn', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/95.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (97, 'Zeus', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/96.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (98, 'Leia', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/97.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (99, 'Abigail', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/98.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (100, 'Goldie', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/99.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (101, 'Spooky', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/00.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (102, 'Ollie', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/01.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (103, 'Simone', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/02.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (104, 'Lilly', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/03.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (105, 'Poppy', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/04.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (106, 'Elvis', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/05.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (107, 'Heidi', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/06.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (108, 'Annie', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/07.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (109, 'Tango', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/08.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (110, 'Tabby', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/09.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (111, 'Storm', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/10.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (112, 'Monty', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/11.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (113, 'Sasha', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/12.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (114, 'Angel', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/13.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (115, 'Lady', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/14.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (116, 'Tina', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/15.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (117, 'Petunia', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/16.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (118, 'Alex', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/17.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (119, 'Lexi', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/18.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (120, 'Dora', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/19.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (121, 'Athena', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/20.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (122, 'Ally', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/21.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (123, 'Louise', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/22.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (124, 'Buffy', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/23.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (125, 'Aldo', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/24.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (126, 'Panda', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/25.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (127, 'Rose', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/26.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (128, 'Clementine', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/27.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (129, 'Oreo', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/28.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (130, 'Samantha', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/29.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (131, 'Sarah', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/30.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (132, 'Bonnie', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/31.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (133, 'Sugar', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/32.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (134, 'Hope', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/33.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (135, 'Zoey', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/34.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (136, 'Leila', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/35.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (137, 'Mittens', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/36.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (138, 'Taz', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/37.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (139, 'Frankie', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/38.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (140, 'Precious', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/39.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (141, 'Nora', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/40.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (142, 'Olivia', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/41.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (143, 'Ursula', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/42.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (144, 'Jessie', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/43.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (145, 'Miss Kitty', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/44.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (146, 'Ivy', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/45.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (147, 'Tiger Lily', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/46.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (148, 'Ophelia', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/47.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (149, 'Bella', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/48.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (150, 'Lacey', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/49.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (151, 'Marley', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/50.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (152, 'Eva', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/51.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (153, 'Kali', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/52.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (154, 'Cleopatra', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/53.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (155, 'Chanel', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/54.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (156, 'Sophia', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/55.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (157, 'Duchess', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/56.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (158, 'Grace', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/57.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (159, 'Goose', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/58.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (160, 'Tinkerbell', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/59.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (161, 'Juliet', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/60.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (162, 'Peanut', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/61.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (163, 'Pixie', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/62.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (164, 'Molly', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/63.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (165, 'Apollo', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/64.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (166, 'Willow', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/65.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (167, 'Hermione', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/66.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (168, 'Dinah', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/67.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (169, 'Hannah', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/68.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (170, 'Sooty', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/69.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (171, 'Star', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/70.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (172, 'Maxine', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/71.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (173, 'Walter', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/72.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (174, 'Mandy', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/73.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (175, 'Libby', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/74.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (176, 'Jack', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/75.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (177, 'Gracie', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/76.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (178, 'Princess', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/77.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (179, 'Smokey', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/78.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (180, 'Buttercup', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/79.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (181, 'Peregrine', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/80.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (182, 'Josie', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/81.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (183, 'Kiki', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/82.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (184, 'Allie', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/83.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (185, 'Sassy', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/84.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (186, 'Tulip', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/85.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (187, 'Roo', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/86.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (188, 'Savannah', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/87.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (189, 'Pinky', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/88.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (190, 'Zuzu', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/89.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (191, 'Lulu', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/90.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (192, 'Sammy', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/91.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (193, 'Rosie', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/92.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (194, 'Tabitha', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/93.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (195, 'Natasha', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/94.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (196, 'Ramona', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/95.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (197, 'Griffin', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/96.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (198, 'Baby Girl', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/97.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (199, 'Jade', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/98.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (200, 'Tootsie', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/99.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (201, 'Zander', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/00.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (202, 'Dakota', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/01.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (203, 'Scarlett', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/02.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (204, 'Casper', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/03.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (205, 'Candy', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/04.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (206, 'Lexie', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/05.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (207, 'Queenie', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/06.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (208, 'Boots', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/07.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (209, 'Dolly', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/08.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (210, 'Isabella', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/09.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (211, 'Bear', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/10.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (212, 'Moxie', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/11.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (213, 'Leonard', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/12.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (214, 'Trixie', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/13.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (215, 'Cinnamon', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/14.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (216, 'Ariel', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/15.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (217, 'Max', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/16.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (218, 'Tiffany', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/17.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (219, 'Vesper', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/18.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (220, 'Brownie', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/19.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (221, 'Harley', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/20.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (222, 'Kitten', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/21.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (223, 'Ripley', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/22.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (224, 'Louie', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/23.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (225, 'Iris', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/24.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (226, 'Dante', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/25.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (227, 'Chester', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/26.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (228, 'Penelope', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/27.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (229, 'Mitzi', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/28.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (230, 'Xena', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/29.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (231, 'Cricket', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/30.jpeg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (232, 'Chewy', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/31.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (233, 'Whiskers', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/32.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (234, 'Rocky', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/33.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (235, 'Suki', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/34.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (236, 'Riley', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/35.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (237, 'Cookie', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/36.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (238, 'Henry', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/37.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (239, 'Shadow', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/38.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (240, 'Izzy', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/39.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (241, 'Zeke', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/40.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (242, 'Violet', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/41.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (243, 'Kimba', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/42.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (244, 'Callie', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/43.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (245, 'Gizmo', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/44.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (246, 'Rocco', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/45.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (247, 'Beatrix', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/46.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (248, 'Charlotte', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/47.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (249, 'Kitty', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/48.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (250, 'Thomas', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/49.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (251, 'Honey', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/50.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (252, 'Mama', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/51.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (253, 'Sophie', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/52.jpeg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (254, 'Zoe', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/53.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (255, 'Matilda', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/54.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (256, 'Cinder', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/55.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (257, 'Finn', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/56.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (258, 'Mika', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/57.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (259, 'Shelby', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/58.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (260, 'Polly', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/59.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (261, 'Sunshine', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/60.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (262, 'Charlie', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/61.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (263, 'Sabrina', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/62.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (264, 'Puss', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/63.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (265, 'Benny', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/64.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (266, 'Dottie', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/65.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (267, 'Bailey', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/66.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (268, 'Teddy', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/67.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (269, 'Cali', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/68.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (270, 'Cupcake', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/69.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (271, 'Thor', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/70.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (272, 'Chloe', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/71.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (273, 'Jazzy', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/72.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (274, 'Baby', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/73.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (275, 'Madeline', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/74.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (276, 'Gigi', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/75.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (277, 'Nina', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/76.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (278, 'Piper', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/77.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (279, 'Oscar', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/78.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (280, 'Crystal', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/79.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (281, 'Ziva', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/80.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (282, 'Avalon', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/81.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (283, 'Raven', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/82.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (284, 'Sunny', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/83.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (285, 'Penny', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/84.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (286, 'Cassie', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/85.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (287, 'Alice', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/86.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (288, 'Persie', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/87.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (289, 'Toby', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/88.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (290, 'Delilah', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/89.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (291, 'Lila', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/90.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (292, 'Sierra', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/91.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (293, 'Sebastian', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/92.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (294, 'Abby', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/93.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (295, 'Cocoa', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/94.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (296, 'Sylvester', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/95.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (297, 'Maisie', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/96.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (298, 'Belle', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/97.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (299, 'Stormy', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/98.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (300, 'Vincent', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/99.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (301, 'Bianca', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/00.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (302, 'Chase', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/01.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (303, 'Gabby', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/02.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (304, 'Felix', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/03.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (305, 'Ebony', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/04.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (306, 'Snowball', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/05.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (307, 'Mya', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/06.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (308, 'Patches', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/07.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (309, 'Serafina', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/08.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (310, 'Snickers', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/09.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (311, 'Cuddles', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/10.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (312, 'Lola', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/11.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (313, 'Pebbles', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/12.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (314, 'Kit Kat', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/13.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (315, 'Velvet', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/14.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (316, 'Phoebe', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/15.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (317, 'Mocha', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/16.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (318, 'Annabelle', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/17.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (319, 'Katie', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/18.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (320, 'Minerva', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/19.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (321, 'Beau', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/20.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (322, 'Xavier', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/21.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (323, 'Sally', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/22.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (324, 'Isis', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/23.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (325, 'Olive', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/24.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (326, 'Layla', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/25.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (327, 'Hera', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/26.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (328, 'Rascal', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/27.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (329, 'Winnie', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/28.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (330, 'Maya', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/29.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (331, 'Harry', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/30.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (332, 'Scout', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/31.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (333, 'Ziggy', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/32.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (334, 'Ranger', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/33.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (335, 'Midnight', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/34.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (336, 'Ellie', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/35.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (337, 'Dahlia', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/36.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (338, 'Diego', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/37.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (339, 'Gypsy', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/38.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (340, 'Spike', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/39.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (341, 'Smudge', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/40.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (342, 'Jasmine', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/41.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (343, 'Reese', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/42.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (344, 'Simba', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/43.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (345, 'Emma', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/44.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (346, 'Buster', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/45.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (347, 'Skye', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/46.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (348, 'Otis', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/47.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (349, 'Kira', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/48.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (350, 'Onyx', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/49.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (351, 'Mimi', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/50.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (352, 'Elsa', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/51.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (353, 'Amy', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/52.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (354, 'Muffin', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/53.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (355, 'Mila', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/54.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (356, 'Aurora', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/55.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (357, 'Holly', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/56.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (358, 'Jake', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/57.jpeg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (359, 'Patch', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/58.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (360, 'Daphne', 11, 'http://lt-cats.s3-us-west-2.amazonaws.com/59.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (361, 'Missy', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/60.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (362, 'Sissy', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/61.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (363, 'Murphy', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/62.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (364, 'Milo', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/63.png');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (365, 'Kona', 7, 'http://lt-cats.s3-us-west-2.amazonaws.com/64.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (366, 'Isabelle', 4, 'http://lt-cats.s3-us-west-2.amazonaws.com/65.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (367, 'Rhubarb', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/66.gif');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (368, 'Mochi', 2, 'http://lt-cats.s3-us-west-2.amazonaws.com/67.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (369, 'Tiger', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/68.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (370, 'Rex', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/69.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (371, 'Boo', 8, 'http://lt-cats.s3-us-west-2.amazonaws.com/70.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (372, 'Skittles', 9, 'http://lt-cats.s3-us-west-2.amazonaws.com/71.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (373, 'Moon', 10, 'http://lt-cats.s3-us-west-2.amazonaws.com/72.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (374, 'Casey', 6, 'http://lt-cats.s3-us-west-2.amazonaws.com/73.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (375, 'Zelda', 3, 'http://lt-cats.s3-us-west-2.amazonaws.com/74.jpg');
+INSERT INTO fur_real.cats (id, name, age, url) VALUES (376, 'Sheba', 5, 'http://lt-cats.s3-us-west-2.amazonaws.com/75.jpg');
