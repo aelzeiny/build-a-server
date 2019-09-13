@@ -1,0 +1,9 @@
+node_modules
+.idea
+.pytest_cache
+__pycache
+.DS_Store
+.vscode
+v-env
+env
+flask/downloads
