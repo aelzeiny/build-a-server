@@ -88,9 +88,20 @@ Mark Zuckerberg... but with cats. We'll call our billion dollar website: `Fur Re
    ```bash
    mysql -u your_mysql_username -p < ./sql/seed.sql 
    ```
-5. Begin
-
-## Part 3 - Flask Version
-Start by 
-   
-   
+5. For flask go into the `flask` folder and run
+    ```bash
+    pip install -r requirements.txt
+    python app.py
+    ```
+6. For Express go into the `express` folder and run
+    ```bash
+    npm i
+    node app.js
+    ```
+5. Download Python 3.6 or higher and run the unit-tests in the flask folder. Good luck!
+    ```bash
+    # to run all tests
+    python -m pytest api_tests.py
+    # to run just one test
+    python -m pytest api_tests.py::test_server_is_up
+    ```
